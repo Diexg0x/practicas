@@ -1,0 +1,68 @@
+body{
+    background: rgb(36,0,27);
+    background: linear-gradient(90deg, rgba(36,0,27,1) 0%, rgba(252,153,255,1) 50%, rgba(0,212,255,1) 100%);
+}
+div{
+    margin: 20px;
+    padding: 10px
+}
+.header{
+    background: rgb(0, 71, 141);
+    width: 693px ;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
+.box1{
+    background: rgb(100, 32, 178);
+    height: 80px;
+    width: 140px;
+    display: flex;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+    
+}
+.box2{
+    background: rgb(255, 55, 55);
+    height:80px;
+    width:140px;
+    position: absolute;
+    left:240px;
+    top: 143px;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
+.box3{
+    background: rgb(83, 255, 77);
+    height: 80px;
+    width: 140px;
+    position: absolute;
+    left: 439px;
+    top: 143px;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
+.sidebar{
+    background: rgb(129, 127, 255);
+    height: 310px;
+    width: 110px;
+    position: absolute;
+    left: 620px;
+    top: 145px;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
+.main{
+    background: #ff1b98;
+    height: 180px;
+    width: 540px;
+    display: flex;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
+.footer{
+    background: rgb(167, 155, 0);
+    width: 693px ;
+    display: flex;
+    border: 5px solid rgb(60, 242, 255);
+    padding: 10px;
+}
