@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(254,255,213);
+    background: radial-gradient(circle, rgba(254,255,213,1) 0%, rgba(217,255,118,0.9920343137254902) 100%);   font-family: 'Island Moments', cursive;
+}
+#resultado{
+display: grid;
+grid-template-columns: repeat(4, 2fr);
+grid-template-rows: auto;
+gap: 25px;
+
+}
